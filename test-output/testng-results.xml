@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58314" started-at="2019-11-24T09:38:59Z" finished-at="2019-11-24T09:39:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="58314" started-at="2019-11-24T09:38:59Z" finished-at="2019-11-24T09:39:57Z">
+      <class name="linkden.Test.AppTest">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:linkden.Test.AppTest@4667ae56]" name="BeforeSuite" is-config="true" duration-ms="354" started-at="2019-11-24T15:08:58Z" finished-at="2019-11-24T15:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="automationSetup(java.lang.String, java.lang.String)[pri:0, instance:linkden.Test.AppTest@4667ae56]" name="automationSetup" is-config="true" duration-ms="24512" started-at="2019-11-24T15:08:59Z" finished-at="2019-11-24T15:09:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.linkedin.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationSetup -->
+        <test-method status="PASS" signature="validation()[pri:0, instance:linkden.Test.AppTest@4667ae56]" name="validation" duration-ms="31672" started-at="2019-11-24T15:09:23Z" finished-at="2019-11-24T15:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="PASS" signature="automationTeardown()[pri:0, instance:linkden.Test.AppTest@4667ae56]" name="automationTeardown" is-config="true" duration-ms="2083" started-at="2019-11-24T15:09:55Z" finished-at="2019-11-24T15:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationTeardown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:linkden.Test.AppTest@4667ae56]" name="afterSuite" is-config="true" duration-ms="2941" started-at="2019-11-24T15:10:03Z" finished-at="2019-11-24T15:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- linkden.Test.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
